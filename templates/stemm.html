@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>STEMM</title>
+</head>
+<body>
+<h2>WORDS AND THEIR STEMMED FORMS</h2><br>
+<table border = 1>
+{% for key in stemm %}
+<tr>
+<td> {{ key }} </td>
+</tr>
+{% endfor %}
+</table>
+
+<form method="POST" action=''>
+<h3>Press FIND-LEMMA to find the lemmatized words of the words in the sentences</h3>
+<input type="submit" value="FIND LEMMA"><br>
+</form>
+
+</body>
+</html>

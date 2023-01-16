@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Verbs</title>
+</head>
+<body>
+<h2>VERBS IN THE TEXT</h2><br>
+<table border = 1>
+{% for key in verbs %}
+<tr>
+<td> {{ key }} </td>
+</tr>
+{% endfor %}
+</table>
+
+<form method="POST" action=''>
+<h3>Press FIND-ADJECTIVES to find the verbs in the sentences</h3>
+<input type="submit" value="FIND ADJECTIVES"><br>
+</form>
+
+</body>
+</html>

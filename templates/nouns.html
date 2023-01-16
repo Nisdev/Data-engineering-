@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nouns</title>
+</head>
+<body>
+<h2>NOUNS IN THE TEXT</h2><br>
+<table border = 1>
+{% for key in nouns %}
+<tr>
+<td> {{ key }} </td>
+</tr>
+{% endfor %}
+</table>
+
+<form method="POST" action=''>
+<h3>Press FIND-VERBS to find the verbs in the sentences</h3>
+<input type="submit" value="FIND VERBS"><br>
+</form>
+
+</body>
+</html>

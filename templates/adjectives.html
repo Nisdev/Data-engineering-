@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Adjectives</title>
+</head>
+<body>
+<h2>ADJECTIVES IN THE TEXT</h2><br>
+<table border = 1>
+{% for key in adjecs %}
+<tr>
+<td> {{ key }} </td>
+</tr>
+{% endfor %}
+</table>
+
+<form method="POST" action=''>
+<h3>Press FIND-STEMM to find the stemmed form of words in the sentences</h3>
+<input type="submit" value="FIND STEMM"><br>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sentences</title>
+</head>
+<body>
+<h2>SENTENCES IN THE TEXT</h2><br>
+<table border = 1>
+{% for key in sentences %}
+<tr>
+<td> {{ key }} </td>
+</tr>
+{% endfor %}
+</table>
+
+<form method="POST" action=''>
+<h3>Press FIND-NOUNS to find the nouns in the sentences</h3>
+<input type="submit" value="FIND NOUNS"><br>
+</form>
+
+</body>
+</html>
